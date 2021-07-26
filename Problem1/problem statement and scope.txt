@@ -1,0 +1,27 @@
+Design database schema for Instagram
+
+solution :-
+
+Consideration:
+
+The instagram that I design has functionally
+1. Personal Account (Not business)
+2. Users can do posts, Add stories, chat with other members, and create reels.
+3. Report option is also present.
+
+User Table
+- userId is main key for any perticular User.
+- passowrd is hashed and stored in database.
+
+User profile
+- profile picture : stored on file system and name of file is stored on db
+
+
+------------------------------------------------------------------------
+Note ->
+
+The chats and comments are the documents realated data. So it can be best fitted 
+on noSQL datbases.
+e.g. "comments" = { "post_id" :[{"user_id": "", "content":"", "dateTime": ""}, ...]}
+
+

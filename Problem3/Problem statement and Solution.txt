@@ -1,0 +1,4 @@
+4 criteria 
+I assume that the priority of these attributes are balance > age > salary > dependents
+there are multiple ways if else conditions for doing this.
+I choose simplest approach for doing this.
